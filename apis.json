@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Dun & Bradstreet",
+	"description": "This is a repository of dun & bradstreet APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/dun-bradstreet.png",
+	"created": "2018-02-24",
+	"modified": "2018-09-05",
+	"url": "http://dun-bradstreet.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Dun & Bradstreet",
+			"x-api-slug": "dun-bradstreet",
+			"description": "Dun & Bradstreet (NYSE: DNB) grows the most valuable relationships in business. We help our customers and partners make better business decisions. Many global companies rely on our data, insights, and analytics for success. Find out how Dun & Bradstree...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/174-dun-&-bradstreet.jpg",
+			"humanURL": "http://www.dnb.com",
+			"baseURL": "https://plus.dnb.com//",
+			"tags": "Dun & Bradstreet",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/dun-bradstreet/master/_listings/dun-bradstreet/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Dun & Bradstreet",
+	"include": [
+		{
+			"name": "Dun & Bradstreet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/dun-bradstreet/master/_listings/dun-bradstreet/apis.yaml"
+		}
+	]
+}
